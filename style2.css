@@ -1,0 +1,289 @@
+      
+      html, body, div, span, applet, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      a, abbr, acronym, address, big, cite, code,
+      del, dfn, em, img, ins, kbd, q, s, samp,
+      small, strike, strong, sub, sup, tt, var,
+      b, u, i, center,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td,
+      article, aside, canvas, details, embed, 
+      figure, figcaption, footer, header, hgroup, 
+      menu, nav, output, ruby, section, summary,
+      time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+     
+      article, aside, details, figcaption, figure, 
+      footer, header, hgroup, menu, nav, section {
+        display: block;
+      }
+      body {
+        line-height: 1;
+      }
+      ol, ul {
+        list-style: none;
+      }
+      blockquote, q {
+        quotes: none;
+      }
+      blockquote:before, blockquote:after,
+      q:before, q:after {
+        content: '';
+        content: none;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+
+
+
+      .header{
+        display: flex;
+        padding:0px 10px;
+        background-color: #7DB45F;
+      }
+      .header .logo{
+        display: inline-block;
+        padding: 6px 0px;
+      }
+      .header nav{
+        text-align: right;
+        width: 100%;
+        font-size: 0;
+      }
+      .header nav a{
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+        display:inline-block;
+        line-height: 52px;
+        padding: 0 10px;
+      }
+      .header nav a:hover{
+        background-color: #fa0;
+      }
+
+      
+      .banner img{
+        width: 100%;
+      }
+      
+      .item h3{
+        font-size: 36px;
+        padding: 0 0 30px;
+      }
+      .wrap{
+        width: 960px;
+        margin: auto;
+      }
+
+      .createweb{
+         height:300px;
+         padding: 40px 0px 60px;
+      }
+      .createweb > h2{
+        width: 960px;
+        font-size: 42px;
+        margin: auto;
+        text-align: center;
+        padding: 20px 0px;
+      }
+      .createweb > p{
+        width: 960px;
+        margin: auto;
+        padding: 0px 0px 40px;
+        text-align: center;
+      }
+
+      .about{
+        background-color: #B1FF99;
+      }
+      .about .wrap{
+        display: flex;
+      }
+      .about .item{
+        
+        width: 50%;
+      }
+      .about .item img{
+        width: 100%;
+        vertical-align: bottom;
+      }
+      .about .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 20px;
+        text-align: center;
+      }
+      .bird{
+        padding: 40px 0px 60px;
+        
+      }
+      .bird .wrap{
+        display: flex;
+      }
+      .bird .item{
+        width: 300px;
+        margin: 0 10px;
+        text-align: center;
+      }
+      .bird .item h3{
+        color: #000;
+        transition: .5s;
+      }
+      .bird .item p{
+        color: #000;
+        transition: .5s;
+      }
+      .bird .item:hover h3{
+        color: #DB37C9;
+      }
+      .bird .item:hover p{
+        color: #FAAB42;
+      }
+      .bird .item img{
+        border-radius: 50%;
+        margin-bottom: 5px;
+      }
+      .bird > h2{
+        width: 960px;
+        font-size: 42px;
+        margin: auto;
+        text-align: center;
+        padding: 20px 0px;
+      }
+      .bird > p{
+        width: 960px;
+        margin: auto;
+        padding: 0px 0px 40px;
+        text-align: center;
+      }
+
+      .equ{
+        padding: 40px 0;
+        background-color: #FAABE2;
+      }
+      .equ > h2{
+        width: 960px;
+        margin: auto;
+        text-align: center;
+        font-size: 42px;
+        padding: 20px 0;
+      }
+      
+      .equ .wrap{
+        display: flex;
+      }
+      .equ .item{
+        margin: 0 10px;
+        width: 300px;
+        text-align: center;
+      }
+      .equ .item h3{}
+      .equ .item p{}
+      .equ .item img{
+        width: 60%;
+        border-radius: 50%;
+        margin-bottom: 5px;
+      }
+      .top{
+        width:40px;
+        height:40px;
+        background-color:#7DB45F;
+        position:fixed;
+        right:10px;
+        bottom:20px;
+        padding:10px 0 0 10px;
+      }
+      .top:before{
+        content:"";
+        display:inline-block;
+        border-color:transparent transparent white transparent;
+        border-style:solid;
+        border-width:0 15px 25px 15px;
+        text-align:center;
+      }
+      
+      .footer{
+        text-align: center;
+        background-color: #7DB45F;
+        color: #fff;
+        padding: 20px 0;
+      }
+      /*
+      @media screen and (max-width: 1029px){
+
+        .banner img{
+          width: 80%;
+        }
+        .createweb{
+          margin: 0 10px 20px;
+          padding: 30px 10px;
+        }
+        .createweb h2{
+          text-align: center;
+          font-size: 36px;
+        }
+        .createweb p{
+          text-align: center;
+          font-size: 22px;
+        }
+        .about{
+          background-color: #B1FF99;
+        }
+        .item{
+          margin: 0 10px 40px;
+        }
+        .item .pic img{
+          width:100%;
+        }
+        .item .text h3{
+          font-size: 24px;
+          text-align: center;
+        }
+        .about h2,.bird h2,.equ h2{
+          font-size: 36px;
+          text-align: center;
+        }
+        .equ{
+          background-color: #FAABE2;
+        }
+
+        .top{
+          width:40px;
+          height:40px;
+          background-color:#7DB45F;
+          position:fixed;
+          right:10px;
+          bottom:20px;
+          padding:10px 0 0 10px;
+        }
+        .top:before{
+          content:"";
+          display:inline-block;
+          border-color:transparent transparent white transparent;
+          border-style:solid;
+          border-width:0 15px 25px 15px;
+          text-align:center;
+        }
+        .footer{
+          text-align: center;
+          background-color: #7DB45F;
+          color: #fff;
+          padding: 20px 0;
+        }
+      
+
+
+      }*/
+	  
+	

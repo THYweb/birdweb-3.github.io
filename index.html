@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>鳥類網站</title>
+  <link rel="stylesheet" href="birdmain.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+      
+      <script>
+    
+          $(document).ready(function(){
+
+            $('.top').hide()
+            $(window).scroll(function(){
+              if($(this).scrollTop()>1){
+                $('.top').fadeIn()
+              }else{
+                $('.top').fadeOut()
+              }
+            })
+            $('.top').click(function(){
+              $('html,body').animate({
+                scrollTop:0
+              },800);return false
+            })
+          })
+
+      </script>
+     
+      <input type="checkbox" id="menu_control">
+      <div class="header" id="header">
+        <h1 class="logo">
+            <a href="#">
+                <img src="image/logo.png" alt="">
+           </a>
+        </h1>
+        <label for="menu_control" class="menu_btn">
+        <span>選單</span>
+        </label>
+        <nav>
+            <a href="#createweb">成立網站</a>
+            <a href="#about">關於我</a>
+            <a href="#bird">介紹鳥類</a>
+            <a href="#eq">攝影裝備</a>
+        </nav>
+      </div>
+      
+      
+
+      <div class="banner" id="banner">
+        <img src="image/banner.jpg" >
+      </div>
+
+     
+
+      <div class="createweb" id="createweb">
+        
+        <h2>成立網站</h2>
+        <br>
+        <p>
+          目的:喜歡拍攝野鳥，成立網站介紹。<br>
+          圖片來源:父親拍攝照片。<br>
+          參考資料來源:台灣野鳥圖鑑 陸鳥篇、線上鳥類圖鑑。<br>
+        </p>
+        
+      </div>
+
+      <div class="about" id="about">
+        <div class="wrap">
+          <div class="item pic">
+            <img src="image/aboutimg.jpg" >
+          </div>
+          <div class="item text">
+            <h3>關於我</h3>
+            <p>
+              大學期間，休假時，我跟家人一起去拍攝野鳥，對鳥類感到興趣，學習到基礎攝影技巧和鳥類構圖方式。<br>
+              聯絡方式:toudfh0@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bird" id="bird">
+        <h2>鳥類介紹</h2>
+        <br>
+        <div class="wrap">
+
+          <div class="item">
+            <div class="pic">
+               <a href="birdpage1.html"><img src="image/bird1.jpg"></a>
+            </div>
+            <div class="text">
+               <h3>黃眉黃鶲</h3>
+            </div>
+          </div>
+          <div class="item">
+            <div class="pic">
+              <a href="birdpage2.html"><img src="image/bird2.jpg"></a>
+            </div>
+            <div class="text">
+              <h3>橙頰梅花雀</h3>
+              
+            </div>
+            
+          </div>
+          <div class="item">
+            <div class="pic">
+              <a href="birdpage3.html"><img src="image/bird3.jpg"></a>
+            </div>
+            <div class="text">
+              <h3>藍喉歌鴝</h3>
+            
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="pic">
+               <a href="birdpage4.html"><img src="image/bird4.jpg"></a>
+            </div>
+            <div class="text">
+               <h3>銅藍鶲</h3>
+               
+            </div>
+          </div>
+          <div class="item">
+            <div class="pic">
+               <a href="birdpage5.html"><img src="image/bird5.jpg"></a>
+            </div>
+            <div class="text">
+               <h3>鵂鶹</h3>
+               
+            </div>
+          </div>
+          <div class="item">
+            <div class="pic">
+              <a href="birdpage6.html"><img src="image/bird6.jpg"></a>
+            </div>
+            <div class="text">
+               <h3>台灣藍鵲</h3>
+              
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="pic">
+              <a href="birdpage7.html"><img src="image/bird7.jpg"></a>
+            </div>
+            <div class="text">
+               <h3>黑長尾雉</h3>
+              
+            </div>
+          </div>
+          <div class="item">
+            <div class="pic">
+              <a href="birdpage8.html"><img src="image/bird8.jpg"></a>
+            </div>
+            <div class="text">
+               <h3>栗喉蜂虎</h3>
+
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="pic">
+              <a href="birdpage9.html"><img src="image/bird9.jpg"></a>
+            </div>
+            <div class="text">
+               <h3>鳳頭蒼鷹</h3>
+               
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="pic">
+              <a href="birdpage10.html"><img src="image/bird10.jpg"></a>
+            </div>
+            <div class="text">
+               <h3>灰喉山椒鳥</h3>
+              
+            </div>
+          </div>
+
+          
+          
+         
+
+        </div>
+      </div>
+
+      <div class="equ" id="eq">
+        <h2>拍攝鳥類裝備</h2>
+        
+        <div class="wrap">
+          <div class="item">
+            <div class="pic">
+              <img src="image/equ1.png">
+            </div>
+            <div class="text">
+              <h3>大砲相機</h3>
+            </div>
+          </div>
+          <div class="item">
+            <div class="pic">
+              <img src="image/equ2.png">
+            </div>
+            <div class="text">
+              <h3>腳架</h3>
+            </div>
+          </div>
+          <div class="item">
+            <div class="pic">
+              <img src="image/equ3.png">
+            </div>
+            <div class="text">
+              <h3>雨衣</h3>
+            </div>
+          </div>
+          <div class="item">
+            <div class="pic">
+              <img src="image/equ4.png">
+            </div>
+            <div class="text">
+              <h3>椅子</h3>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="pic">
+              <img src="image/equ5.png">
+            </div>
+            <div class="text">
+              <h3>水壺</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="top"></div>
+
+      
+      
+      <div class="footer">
+        &copy; copyright 2023 THY bird websites
+
+      </div>
+      
+
+
+</body>
+              
+</html>
